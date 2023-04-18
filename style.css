@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
+
 body{
     background: #080808;
     color: #000000;
@@ -63,10 +64,11 @@ nav ul li a:hover::after{
 .header-text h1{
     font-size: 60px;
     margin-top: 20px;
+    color:#000000
 
 }
 .header-text h1 span{
-    color: crimson;
+    color: rgb(255, 0, 0);
 }
 
 /*---------start about section-------*/
@@ -142,7 +144,7 @@ nav ul li a:hover::after{
 /*----------------start service section -------------*/
 #services{
     padding: 30px 0;
-    background: #1f2c29;
+    background: #000000;
 }
 #services .container{
     text-align: center;
