@@ -36,7 +36,7 @@ nav ul li {
     margin: 10px 20px;
 }
 nav ul li a{
-    color: #060505;
+    color: #fffafa;
     text-decoration: none;
     font-size: 18px;
     position: relative;
@@ -358,7 +358,7 @@ form .btn2{
     width: 100%;
     text-align: center;
     padding: 25px 0;
-    background: #262626;
+    background: #ffffff;
     font-weight: 300;
     margin-top: 20px;
 }
@@ -385,7 +385,7 @@ nav .fa-solid{
         font-size: 25px;
     }
     nav ul{
-        background: crimson;
+        background: rgb(198, 36, 69);
         position: fixed;
         top: 0;
         right: -200px;
