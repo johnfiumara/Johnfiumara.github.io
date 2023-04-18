@@ -18,7 +18,7 @@ html{
     background-position: center;
     background-size: cover;
 }
-.contenier{
+.container{
     padding: 10px 10%;
 }
 nav{
@@ -55,17 +55,17 @@ nav ul li a:hover::after{
     width: 100%;
 
 }
-.hearder-text{
+.header-text{
     font-size: 30px;
     margin-top: 10%;
 
 }
-.hearder-text h1{
+.header-text h1{
     font-size: 60px;
     margin-top: 20px;
 
 }
-.hearder-text h1 span{
+.header-text h1 span{
     color: crimson;
 }
 
@@ -143,12 +143,11 @@ nav ul li a:hover::after{
 #services{
     padding: 30px 0;
     background: #1f2c29;
-    
 }
-#services .contenier{
+#services .container{
     text-align: center;
 }
-#services .contenier p{
+#services .container p{
     margin-top: 15px;
 }
 
@@ -165,8 +164,12 @@ nav ul li a:hover::after{
     font-size: 13px;
     font-weight: 300;
     border-radius: 10px;
-    transition: background 0.5s, transform 0.5s;
-
+    transition:linear;
+    background: 0.5s, transform 0.5s;
+    -webkit-transition:linear;
+    -moz-transition:linear;
+    -ms-transition:linear;
+    -o-transition:linear;
 }
 .services-list div img{
     margin-bottom: 30px;
@@ -205,13 +208,12 @@ nav ul li a:hover::after{
 #portfolio{
     padding: 50px 0;
 }
-. portfolioOne {
-   display:block;
-}
-#portfolio .contenier{
+
+
+#portfolio .container{
     text-align: center;
 }
-#portfolio .contenier p{
+#portfolio .container p{
     margin-top: 15px;
 }
 .work-list{
@@ -334,8 +336,6 @@ nav ul li a:hover::after{
 }
 .contact-right form {
     width: 100%;
-   
-
 }
 form input, form textarea{
     width: 100%;
@@ -373,11 +373,11 @@ nav .fa-solid{
     display: none;
 }
 @media Only Screen and (max-width:600px){
-    .hearder-text{
+    .header-text{
         margin-top: 50%;
         font-size: 16px;
     }
-    .hearder-text h1{
+    .header-text h1{
         font-size: 30px;
     }
     nav .fa-solid{
