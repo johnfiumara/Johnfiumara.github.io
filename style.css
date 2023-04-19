@@ -18,6 +18,8 @@ html{
     background-image: url(img/image2.jpeg);
     background-position: center;
     background-size: cover;
+    text-shadow: 1px 1px 2px white,0 0 1em blue, 0 0 0.2em blue; ;
+
 }
 .container{
     padding: 10px 10%;
@@ -46,7 +48,7 @@ nav ul li a::after{
     content: '';
     width: 0;
     height: 3px;
-    background: crimson;
+    background: rgb(16, 15, 122);
     position: absolute;
     left: 0;
     bottom: -6px;
@@ -69,6 +71,9 @@ nav ul li a:hover::after{
 }
 .header-text h1 span{
     color: rgb(255, 0, 0);
+}
+.header img{
+    image-rendering: crisp-edges;
 }
 
 /*---------start about section-------*/
