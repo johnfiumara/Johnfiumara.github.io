@@ -79,10 +79,9 @@ nav ul li a:hover::after{
 /*---------start about section-------*/
 #about{
     padding: 80px 0;
-   color: #fff;
-   background: url(img/VEER-bannn.png);
-   background-position: center;
-   background-size: cover;
+    background:linear-gradient(black 30%,red);
+    color: #fff;
+
 }
 .row{
     display: flex;
