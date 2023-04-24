@@ -48,7 +48,7 @@ nav ul li a::after{
     content: '';
     width: 0;
     height: 3px;
-    background: rgb(16, 15, 122);
+    background: rgb(248, 14, 1);
     position: absolute;
     left: 0;
     bottom: -6px;
@@ -101,6 +101,7 @@ nav ul li a:hover::after{
 .sub-title{
     font-size: 60px;
     font-weight: 600;
+    color:crimson;
 
 }
 .tab-titles{
@@ -144,75 +145,10 @@ nav ul li a:hover::after{
 
 /*----------------End About section -------------*/
 
-
-/*----------------start service section -------------*/
-#services{
-    padding: 30px 0;
-    background: #000000;
-}
-#services .container{
-    text-align: center;
-}
-#services .container p{
-    margin-top: 15px;
-}
-
-
-.services-list{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
-    grid-gap: 40px;
-    margin-top: 50px;
-}
-.services-list div{
-    background: #262626;
-    padding: 40px;
-    font-size: 13px;
-    font-weight: 300;
-    border-radius: 10px;
-    transition:linear;
-    background: 0.5s, transform 0.5s;
-    -webkit-transition:linear;
-    -moz-transition:linear;
-    -ms-transition:linear;
-    -o-transition:linear;
-}
-.services-list div img{
-    margin-bottom: 30px;
-}
-.services-list div h2{
-    font-size: 30px;
-    font-weight: 500;
-    margin-bottom: 15px;
-}
-.services-list div a{
-    text-decoration: none;
-    color: #fff;
-    font-size: 12px;
-    margin-top: 20px;
-    display: inline-block;
-    border: 1px solid #fff;
-    padding: 10px;
-    border-radius: 5px;
-}
-.services-list div a:hover{
-    background: crimson;
-
-}
-.services-list div:hover{
-    background: crimson;
-    transform: translateY(-10px);
-}
-
-
-
-
-/*----------------end service section -------------*/
-
-
 /*----------------start portfolio section -------------*/
 #portfolio{
     padding: 50px 0;
+    background: rgb(0,0,0)
 }
 
 
@@ -301,7 +237,7 @@ nav ul li a:hover::after{
 
 /*---------------- Start Contact section -------------*/
 #contact{
-    background: #121d1b;
+    background: #f32015;
     padding-top: 50px;
 }
 .contact-left{
@@ -315,7 +251,7 @@ nav ul li a:hover::after{
 
 }
 .contact-left p i{
-    color: crimson;
+    color: rgb(5, 5, 5);
     margin-right: 15px;
     font-size: 25px;
 
@@ -337,7 +273,7 @@ nav ul li a:hover::after{
     transform: translateY(-5px);
 }
 .btn.btn2{
-    background: crimson;
+    background: rgb(149, 3, 3);
     display: inline-block;
 }
 .contact-right form {
@@ -347,7 +283,7 @@ form input, form textarea{
     width: 100%;
     border: 0;
     outline: none;
-    background: #262626;
+    background: #840f0f;
     padding: 15px;
     margin: 15px 0;
     color: #fff;
