@@ -134,7 +134,7 @@ const projects = [
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/johnfiumara/2eyesmousefollow",
   },
   {
     name: "bouncing ball",
@@ -147,7 +147,7 @@ const projects = [
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/johnfiumara/bouncingBall",
   },
 ];
 
