@@ -116,25 +116,25 @@ const feedbacks =[
 const testimonials = []
 const projects = [
   {
-    name: "Staring Contest",
+    name: "Get-Swole.fun",
     description:
-      "see who wins you or the computer",
+      "An exercise website using rapidAPI",
     tags: [
       {
-        name: "html",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "css",
+        name: "Rapid API",
         color: "green-text-gradient",
       },
       {
-        name: "java-script",
+        name: "Java-script",
         color: "pink-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/johnfiumara/2eyesmousefollow",
+    source_code_link: "https://github.com/johnfiumara/Get-Swole",
   },
   {
     name: "bouncing ball",
